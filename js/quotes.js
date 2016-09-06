@@ -39,6 +39,13 @@ var quotes = [
         citation: "Churchill: In His Own Words",
         year: "10 June 1941",
         place: "cited in Langworth"
+    },
+
+    {
+        quote: "Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen.",
+        source: "Wyston Churchill",
+        year: "1940",
+        citation: "The Finest Hour"
     }
 ];
 

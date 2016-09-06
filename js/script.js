@@ -18,7 +18,7 @@ function getRandomQuotes() {
     var i = (Math.floor(Math.random() * quotes.length));
    //As long as the as the quotesAfter variable is not full
    if(quotesAfter.length < quotes.length ) {
-   	//If 
+   	//If indexOf the current quote has not already been used, return getRandomQuotes
 		if (quotesAfter.indexOf( quotes[i] ) > -1 ) {
 			return getRandomQuotes();
 		} else {
@@ -29,7 +29,7 @@ function getRandomQuotes() {
 		}
 
 	} else {
-		//Empty the quoteAfter array once all 5 quotes are printed
+		//Empty the quoteAfter array once all quotes are printed once
 		quotesAfter = []; 
 		return getRandomQuotes();
 	}
